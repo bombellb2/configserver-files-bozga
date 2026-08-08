@@ -1,0 +1,14 @@
+build:
+  version: "3.0"
+
+accounts:
+  #zwroc uwage ze w AccountsContactInfoDto mamy String message,
+  message: "Welcome to EazyBank accounts related QA APIs 2"
+  #w AccountsContactInfoDto mamy Map<String, String> contactDetails czyli mapa
+  contactDetails:
+    name: "Smitha Ray - QA Lead"
+    email: "smitha@eazybank.com"
+  #w AccountsContactInfoDto mamy List<String> onCallSupport czyli lista i mamy "-"
+  onCallSupport:
+    - (666) 265-3765
+    - (666) 734-8371

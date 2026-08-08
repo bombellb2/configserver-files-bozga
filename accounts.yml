@@ -1,0 +1,11 @@
+build:
+  version: "1.0"
+
+accounts:
+  message: "Welcome to bombell accounts related local APIs bozga githubrepo"
+  contactDetails:
+    name: "dupa dupa - Developer"
+    email: "bombellb2@gmail.com"
+  onCallSupport:
+    - (555) 555-1234
+    - (555) 523-1345
