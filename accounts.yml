@@ -2,7 +2,7 @@ build:
   version: "1.0"
 
 accounts:
-  message: "Welcome to bombell accounts related local APIs bozga githubrepo2"
+  message: "Welcome to bombell accounts related local APIs bozga githubrepo2 default"
   contactDetails:
     name: "dupa dupa - Developer"
     email: "bombellb2@gmail.com"

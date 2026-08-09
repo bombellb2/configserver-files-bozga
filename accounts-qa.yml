@@ -3,7 +3,7 @@ build:
 
 accounts:
   #zwroc uwage ze w AccountsContactInfoDto mamy String message,
-  message: "Welcome to EazyBank accounts related QA APIs 2"
+  message: "Welcome to EazyBank accounts related QA APIs qa"
   #w AccountsContactInfoDto mamy Map<String, String> contactDetails czyli mapa
   contactDetails:
     name: "Smitha Ray - QA Lead"
