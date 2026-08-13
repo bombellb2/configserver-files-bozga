@@ -6,7 +6,12 @@ eureka:
     hostname: localhost
 #    prefer-ip-address: true
   client:
-    register-with-eureka: true
+    #controls whether this application instance should try to register itself as a client in a Eureka registry.
+    #Setting it to false means: “do not register me as a service instance in Eureka.”
+    #These two flags usually go together on a standalone Eureka Server.
+    #The first disables self-registration, and the second tells it not to pull a registry from elsewhere.
+    #Together, they keep this node in “server-only” mode.
+    register-with-eureka: false
     fetch-registry: false
     service-url:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
