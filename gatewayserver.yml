@@ -1,0 +1,15 @@
+server:
+  port: 8072
+
+eureka:
+  instance:
+    hostname: localhost
+    prefer-ip-address: true
+  client:
+    #Dla mikroserwisu-klienta: rejestruj instancje w Eureka i pobieraj rejestr uslug.
+    #Ta para true/true pozwala na service discovery (odnajdywanie innych serwisow).
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      #8070 to port eureki
+      defaultZone: http://${eureka.instance.hostname}:8070/eureka/
